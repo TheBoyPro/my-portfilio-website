@@ -44,8 +44,8 @@ function About() {
                 medicine and web development.
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href="#">
-                  <button className="about btn pointer">Download Cv</button>
+                <a href="/agbai-divine-resume.pdf" download="agbai-divine-resume.pdf" target="_blank">
+                  <button  className="about btn pointer">Download CV</button>
                 </a>
                 <a href="https://wa.me/message/CRSNXZHP66CKK1" >
                   <button className="about btn pointer">Hire Me</button>
