@@ -11,6 +11,7 @@ import eCommerce from "./img/admin-dashboard.jpg";
 import landingPage from "./img/dialogflux-landing.jpg";
 import chatApp from "./img/chatApp.jpg";
 import debumars from "./img/debumars.jpg";
+import brainiacImg from './img/brainiac-image.jpeg'
 
 export const skills = [
   {
@@ -59,6 +60,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: brainiacImg,
+    url: "https://play.google.com/store/apps/details?id=com.theboypro.brainiac&pcampaignid=web_share",
+    github: "https://github.com/TheBoyPro",
+    title: "Brainiac Study App for Medical Students",
+    text: "This project is one of my dear ones. Basically solves a problem i discovered in medical school. Students can create accounts, send/receive friend requests, study with instant messaging, take quizes and compete amongst other things. It is live and in use on the google playstore!",
+  },
   {
     id: nanoid(),
     img: debumars,
