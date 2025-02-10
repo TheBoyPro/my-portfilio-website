@@ -14,15 +14,10 @@ import debumars from "./img/debumars.jpg";
 import brainiacImg from './img/brainiac-image.jpeg'
 import grandCredenceImg from './img/grand-credence.jpeg'
 import victornathelImg from './img/victor-nathel-landing.jpeg'
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiTypescript } from "react-icons/si";
 
 export const skills = [
-  {
-    id: nanoid(),
-    title: "HTML&CSS",
-    icon: <FaHtml5 size={44} />,
-    text: "Expert",
-    // text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
-  },
   {
     id: nanoid(),
     title: "Javascript",
@@ -51,6 +46,18 @@ export const skills = [
     id: nanoid(),
     title: "Express",
     icon: <FaCode size={44} />,
+    text: "Expert",
+  },
+  {
+    id: nanoid(),
+    title: "NextJs",
+    icon: <TbBrandNextjs size={44} />,
+    text: "Expert",
+  },
+  {
+    id: nanoid(),
+    title: "TypeScript",
+    icon: <SiTypescript size={44} />,
     text: "Expert",
   },
   {

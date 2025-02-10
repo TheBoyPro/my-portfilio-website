@@ -14,7 +14,7 @@ function Home() {
       <div className="home__bg">
         <div style={{paddingTop:15, paddingBottom:15, alignItems:'center'}} className="header d__flex align__items__center pxy__30">
           <div className="logo">
-            <h1 className="sweet" style={{ letterSpacing: 1, fontSize: 20 }}>
+            <h1 className="sweet" style={{ letterSpacing: 1, fontSize: 25 }}>
               TheBoyPro
             </h1>
             {/* <img src={logo} alt="" /> */}
