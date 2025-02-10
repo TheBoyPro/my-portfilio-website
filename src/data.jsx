@@ -12,6 +12,8 @@ import landingPage from "./img/dialogflux-landing.jpg";
 import chatApp from "./img/chatApp.jpg";
 import debumars from "./img/debumars.jpg";
 import brainiacImg from './img/brainiac-image.jpeg'
+import grandCredenceImg from './img/grand-credence.jpeg'
+import victornathelImg from './img/victor-nathel-landing.jpeg'
 
 export const skills = [
   {
@@ -70,6 +72,14 @@ export const projects = [
   },
   {
     id: nanoid(),
+    img: grandCredenceImg,
+    url: "https://www.grandcredenceglobal.com",
+    github: "https://github.com/TheBoyPro",
+    title: "Full Stack NextJs Real estate website",
+    text: "This is a Completed client's fullstack real estate Job. Built with NextJs and serverless functions with industry-standard best practices. The site is live and in use by the client!",
+  },
+  {
+    id: nanoid(),
     img: debumars,
     url: "https://main--sage-twilight-eb7915.netlify.app/",
     github: "https://github.com/TheBoyPro",
@@ -86,18 +96,27 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: chatApp,
-    url: "https://github.com/TheBoyPro",
-    github: "https://github.com/TheBoyPro",
-    title: "Fullstack Chat App",
-    text: "Working with websockets to establish seamingless instant communication between clients, showing last seen, online status, last message and so much more.",
-  },
-  {
-    id: nanoid(),
     img: landingPage,
     url: "https://dialogflux-landing.onrender.com/",
     github: "https://github.com/TheBoyPro",
     title: "Dialogflux Landing page",
     text: "This is a client's work. Landing page for the dialogfulx company.",
   },
+  {
+    id: nanoid(),
+    img: victornathelImg,
+    url: 'https://www.victornathel.com/',
+    github: "https://github.com/TheBoyPro",
+    title: "Landing Page for Coach Nathel",
+    text: "This is a client's work. Simple landing page for the wildly recognized affiliate marketing coach, Victor Nathel.",
+  },
+  {
+    id: nanoid(),
+    img: chatApp,
+    url: "https://github.com/TheBoyPro",
+    github: "https://github.com/TheBoyPro",
+    title: "Fullstack Chat App",
+    text: "Working with websockets to establish seamingless instant communication between clients, showing last seen, online status, last message and so much more.",
+  },
+  
 ];
